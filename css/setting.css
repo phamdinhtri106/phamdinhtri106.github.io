@@ -1,0 +1,31 @@
+:root{
+    --primary-color: #1876f2;
+    --secondary-color: #f1f0f0;
+    --gray: rgb(92, 92, 92);
+    --body-color: #efefef;
+    --color: #626262;
+    --white: white;
+    --font: 'poppins', sans-serif;
+}
+*, *::after , *::before{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: var(--body-color);
+    transition: background 0.3s;
+    color:var(--white);
+    font-family: var(--font);
+}
+.dark__theme{
+    --body-color: #0a0a0a;
+    --primary-color:#000;
+    --white: #000;
+    --color: #fff;
+    --gray: white;
+}

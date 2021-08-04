@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/setting.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
+    <title>Social Network</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__left">
+            <img src="./images/logo.png" class="nav__logo">
+            <ul class="nav__icons">
+                <li><img src="./images/notification.png"></li>
+                <li><img src="./images/inbox.png"></li>
+                <li><img src="./images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav__right">
+            <div class="nav__search">
+                <img src="./images/search.png">
+                <input type="search" placeholder="Search">
+            </div>
+            <div class="nav__profile" onclick="settingToggle()">
+                <img src="./images/profile-pic.png">
+            </div>
+            <!-- -------setting menu----------------- -->
+            <div class="setting__menu">
+                <div id="btn__dark"> 
+                    <span></span>
+                </div>
+                <div class="setting__all">
+                    <div class="setting__profilde">
+                        <img src="./images/profile-pic.png">
+                        <a class="pro">
+                            <span>John Nicholson</span>
+                            <span>
+                                See your profile
+                            
+                            </span>
+                        </a>
+                    </div>
+                    <div class="setting__give">
+                        <img src="./images/feedback.png">
+                        <a class="pro">
+                            <span>Give Feedback</span>
+                            <span>
+                                Help us to improve the new Design
+                            </span>
+                        </a>
+                    </div>
+                    <div class="setting">
+                        <a href="#">
+                            <img src="./images/setting.png">
+                            <span>Settings & Privacy</span>
+                            <img src="./images/arrow.png">
+                        </a>
+                        <a href="#">
+                            <img src="./images/help.png">
+                            <span>Help & Support</span>
+                            <img src="./images/arrow.png">
+                        </a>
+                        <a href="#">
+                            <img src="./images/display.png">
+                            <span>Display & Accessibility</span>
+                            <img src="./images/arrow.png">
+                        </a>
+                        <a href="#">
+                            <img src="./images/logout.png">
+                            <span>Logout</span>
+                            <img src="./images/arrow.png">
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <!------------------Left-sidebar-------------------->
+        <div class="container__left">
+            <div class="left-sidebar__top">
+                    <a href="#">
+                        <img src="./images/news.png">
+                        Latest News
+                    </a>
+                    
+                    <a href="#" class="friend-title">
+                        <img src="./images/friends.png">
+                        Friends
+                    </a>
+
+                    
+                    <a href="#" class="group-title">
+                        <img src="./images/group.png">
+                        Group
+                    </a>
+                    
+                    <a href="#" class="market-title">
+                        <img src="./images/marketplace.png">
+                        Marketplace
+                    </a>
+
+                    <a href="#" class="watch-title">
+                        <img src="./images/watch.png">
+                        Watch
+                    </a>
+                    <a href="#">See More</a>
+            </div>
+            <div class="left-sidebar__bottom">
+                <span>Your Shorcuts</span>
+                <a href="#">
+                    <img src="./images/shortcut-1.png">
+                    Web Developers
+                </a>
+                <a href="#">
+                    <img src="./images/shortcut-2.png">
+                    Web Design course
+                </a>
+                <a href="#">
+                    <img src="./images/shortcut-3.png">
+                    Full Stack Development
+                </a>
+                <a href="#">
+                    <img src="./images/shortcut-4.png">
+                    Website Experts
+                </a>
+            </div>
+        </div>
+        <!-- ------------Main__sidebar---------------- -->
+        <div class="container__main">
+            <ul class="main__story">
+                <li  class="story__new">
+                    <a href="#">
+                        <img src="./images/upload.png">
+                        Post Story
+                    </a>
+                </li>
+                <li  class="story story-2">
+                    <a href="#">
+                        <img src="./images/member-1.png">
+                        Alison
+                    </a>
+                </li>
+                <li class="story story-3">
+                    <a href="#">
+                        <img src="./images/member-2.png">
+                        Jackson
+                    </a>
+                </li>
+                <li class="story story-4">
+                    <a href="#">
+                        <img src="./images/member-3.png">
+                        Samona
+                    </a>
+                </li>
+                <li class="story story-5">
+                    <a href="#">
+                        <img src="./images/member-4.png">
+                        Jone Doe
+                    </a>
+                </li>
+            </ul>
+            <div class="main__status">
+                <img src="./images/profile-pic.png" class="status__main">
+                <div class="status__write">
+                    <a class="man">
+                        <span>John Nicholson</span>
+                        <span>
+                            Public <i class="fas fa-sort-down"></i>
+                        </span>
+                    </a>
+                    <span class="mind">What's on your mind, John?</span>
+                    <div class="status__icon">
+                        <a href="#">
+                            <img src="./images/live-video.png">
+                            Live Video
+                        </a>
+                        <a href="">
+                            <img src="./images/photo.png">
+                            Photo/Video
+                        </a>
+                        <a href="">
+                            <img src="./images/feeling.png">
+                            Feeling/Activity.
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="main__content">
+                <div class="view">
+                    <div class="content-1">
+                        <div class="content__infor">
+                            <img src="./images/profile-pic.png">
+                            <a href="#">
+                                <span>John Nicholson</span>
+                                <span>June 24 2021, 13:40 pm</span>
+                            </a>
+                            <i class="fas fa-ellipsis-v"></i>
+                        </div>
+                    </div>
+                    <div class="content__tus">
+                        <span>Subscribe @PhamDinhtri Youtube Chanel</span>
+                        <img src="./images/feed-image-1.png">
+                        <div class="content__like">
+                            <a href="#">
+                                <img src="./images/like-blue.png">1k
+                            </a>
+                            <a href="#">
+                                <img src="./images/comments.png">
+                                2k
+                            </a>
+                            <a href="#">
+                                <img src="./images/share.png">
+                                1k
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="view">
+                    <div class="content-1">
+                        <div class="content__infor">
+                            <img src="./images/profile-pic.png">
+                            <a href="#">
+                                <span>John Nicholson</span>
+                                <span>June 24 2021, 13:40 pm</span>
+                            </a>
+                            <i class="fas fa-ellipsis-v"></i>
+                        </div>
+                    </div>
+                    <div class="content__tus">
+                        <span>Subscribe @PhamDinhtri Youtube Chanel</span>
+                        <img src="./images/feed-image-1.png">
+                        <div class="content__like">
+                            <a href="#">
+                                <img src="./images/like-blue.png">1k
+                            </a>
+                            <a href="#">
+                                <img src="./images/comments.png">
+                                2k
+                            </a>
+                            <a href="#">
+                                <img src="./images/share.png">
+                                1k
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="view">
+                    <div class="content-1">
+                        <div class="content__infor">
+                            <img src="./images/profile-pic.png">
+                            <a href="#">
+                                <span>John Nicholson</span>
+                                <span>June 24 2021, 13:40 pm</span>
+                            </a>
+                            <i class="fas fa-ellipsis-v"></i>
+                        </div>
+                    </div>
+                    <div class="content__tus">
+                        <span>Subscribe @PhamDinhtri Youtube Chanel</span>
+                        <img src="./images/feed-image-1.png">
+                        <div class="content__like">
+                            <a href="#">
+                                <img src="./images/like-blue.png">1k
+                            </a>
+                            <a href="#">
+                                <img src="./images/comments.png">
+                                2k
+                            </a>
+                            <a href="#">
+                                <img src="./images/share.png">
+                                1k
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="view">
+                    <div class="content-1">
+                        <div class="content__infor">
+                            <img src="./images/profile-pic.png">
+                            <a href="#">
+                                <span>John Nicholson</span>
+                                <span>June 24 2021, 13:40 pm</span>
+                            </a>
+                            <i class="fas fa-ellipsis-v"></i>
+                        </div>
+                    </div>
+                    <div class="content__tus">
+                        <span>Subscribe @PhamDinhtri Youtube Chanel</span>
+                        <img src="./images/feed-image-1.png">
+                        <div class="content__like">
+                            <a href="#">
+                                <img src="./images/like-blue.png">1k
+                            </a>
+                            <a href="#">
+                                <img src="./images/comments.png">
+                                2k
+                            </a>
+                            <a href="#">
+                                <img src="./images/share.png">
+                                1k
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn">Load More</button>
+            </div>
+                
+        </div>
+        <!-- -------------Right_sidebar----------------- -->
+        <div class="container__right">
+            <div class="right-sidebar__top">
+                <div class="top__event">
+                    <span>Events</span>
+                    <a href="#">See All</a>
+                </div>
+                <ul class="local">
+                    <li>
+                        <div class="date">
+                            <span>18</span>
+                            <span>Monch</span>
+                        </div>
+                        <div class="social">
+                            <span class="social__title">Social Media</span>
+                            <span class="social__content">
+                                <img src="./images/location.png">
+                                Willson Tech park
+                            </span>
+                            <a href="#">More Infor</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="date">
+                            <span>22</span>
+                            <span>June</span>
+                        </div>
+                        <div class="social">
+                            <span class="social__title">Mobile Marketing</span>
+                            <span class="social__content">
+                                <img src="./images/location.png">
+                                Willson Tech park
+                            </span>
+                            <a href="#">More Infor</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-sidebar__center">
+                <div class="center__adver">
+                    <span>Advertisement</span>
+                    <a href="#">Close</a>
+                </div>
+                <img src="./images/advertisement.png">
+            </div>
+            <div class="right-sidebar__bottom">
+                <div class="bottom__conver">
+                    <span>Conversation</span>
+                    <a href="#">Hide Chat</a>
+                </div>
+                <ul class="bottom__pro">
+                    <li>
+                        <a href="#"><div class="pro__img"><img src="./images/member-1.png"></div>
+                        Alison Mina
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="pro__img"><img src="./images/member-2.png"></div>
+                        Jackson Aston
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><div class="pro__img"><img src="./images/member-3.png"></div>
+                        Samora Rose
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Copyright 2021 - Phạm Đình Trí
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>l
