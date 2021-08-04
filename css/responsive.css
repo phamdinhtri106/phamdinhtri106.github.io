@@ -99,7 +99,9 @@
     .setting__menu {
         width: 65%;
     }
-   
+    .setting__menu {
+        width: 78%;
+    }
     
 }
 @media screen and (max-width:490px) {
@@ -159,6 +161,14 @@
             display: flex;
             justify-content: center;
         }
+        .setting__menu {
+            width: 78%;
+        }
+        .container__main {
+            flex-basis: 90%;
+            width: 100%;
+            padding: 0 15px;
+        }
 }
 @media screen and (max-width:374px) {
     .nav__search {
@@ -169,5 +179,16 @@
     }
     .story, .story__new {
         flex-basis: 32%;
+    }
+    .setting__menu {
+        width: 100%;
+    }
+    .container__main {
+        flex-basis: 90%;
+        width: 100%;
+        padding: 0 15px;
+    }
+    .story-4, .story-5{
+        max-width: 0;
     }
 }
